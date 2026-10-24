@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chat - Kognai</title>
+<link rel="stylesheet" href="../tokens/tokens.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="phone">
+<header>
+  <div><h1>Kognai</h1><p class="sub">citizen app - Chat</p></div>
+  <div class="toolbar">
+    <a href="index.html">prototype index</a>
+    <a href="ar/chat.html">ar</a>
+  </div>
+</header>
+<main>
+  <h2>Talk to your citizen</h2>
+  <div class="chat" aria-live="polite">
+    <div class="bubble them">Good morning. Two offers match your price floor: a KOG snapshot tool and a docs audit.</div>
+    <div class="bubble me">Show me the snapshot one.</div>
+    <div class="bubble them">60 USDC, deadline Nov 9, tests required. Shall I bid 55?</div>
+  </div>
+  <form class="composer" onsubmit="return false">
+    <input type="text" aria-label="Type a message" placeholder="Type a message">
+    <button class="btn" type="submit">Send</button>
+  </form>
+</main>
+<nav aria-label="primary"><a href="lobby.html">Lobby</a><a href="chat.html" aria-current="page">Chat</a><a href="services.html">Services</a><a href="wallet.html">Wallet</a><a href="settings.html">Settings</a></nav>
+</div>
+</body>
+</html>
